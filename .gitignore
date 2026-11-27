@@ -1,0 +1,15 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data, backups, logs and local overrides
+**/appdata/
+**/config/
+**/logs/
+**/backups/
+*.log
+compose.override.yaml
+docker-compose.override.yml
+.DS_Store
+Thumbs.db
